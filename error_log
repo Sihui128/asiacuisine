@@ -1,0 +1,203 @@
+[19-Sep-2017 01:30:05 Europe/Brussels] PHP Warning:  Invalid argument supplied for foreach() in /home/chinafood/public_html/datainterface/test.php on line 74
+[20-Sep-2017 00:19:26 Europe/Brussels] PHP Warning:  Invalid argument supplied for foreach() in /home/chinafood/public_html/datainterface/sendconfirmation.php on line 23
+[20-Sep-2017 00:24:45 Europe/Brussels] PHP Warning:  Invalid argument supplied for foreach() in /home/chinafood/public_html/datainterface/sendconfirmation.php on line 23
+[20-Sep-2017 00:32:28 Europe/Brussels] PHP Warning:  Invalid argument supplied for foreach() in /home/chinafood/public_html/datainterface/sendconfirmation.php on line 23
+[20-Sep-2017 00:37:27 Europe/Brussels] PHP Warning:  Invalid argument supplied for foreach() in /home/chinafood/public_html/datainterface/sendconfirmation.php on line 23
+[20-Sep-2017 00:54:07 Europe/Brussels] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: To number: +3232311463, is not a mobile number' in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(65): Twilio\Version->create('POST', '/Accounts/ACdee...', Array, Array)
+#2 /home/chinafood/public_html/datainterface/sendconfirmation.php(50): Twilio\Rest\Api\V2010\Account\MessageList->create('032311463', Array)
+#3 {main}
+  thrown in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php on line 85
+[20-Sep-2017 01:19:32 Europe/Brussels] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: To number: +3232311463, is not a mobile number' in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(65): Twilio\Version->create('POST', '/Accounts/ACdee...', Array, Array)
+#2 /home/chinafood/public_html/datainterface/sendconfirmation.php(57): Twilio\Rest\Api\V2010\Account\MessageList->create('032311463', Array)
+#3 {main}
+  thrown in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php on line 85
+[20-Sep-2017 01:19:47 Europe/Brussels] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: To number: +3232311463, is not a mobile number' in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(65): Twilio\Version->create('POST', '/Accounts/ACdee...', Array, Array)
+#2 /home/chinafood/public_html/datainterface/sendconfirmation.php(57): Twilio\Rest\Api\V2010\Account\MessageList->create('032311463', Array)
+#3 {main}
+  thrown in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php on line 85
+[20-Sep-2017 17:07:29 Europe/Brussels] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: To number: +3232311463, is not a mobile number' in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(65): Twilio\Version->create('POST', '/Accounts/ACdee...', Array, Array)
+#2 /home/chinafood/public_html/datainterface/sendconfirmation.php(57): Twilio\Rest\Api\V2010\Account\MessageList->create('032311463', Array)
+#3 {main}
+  thrown in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php on line 85
+[21-Sep-2017 13:35:20 Europe/Brussels] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: To number: +3232311463, is not a mobile number' in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(65): Twilio\Version->create('POST', '/Accounts/ACdee...', Array, Array)
+#2 /home/chinafood/public_html/datainterface/sendconfirmation.php(57): Twilio\Rest\Api\V2010\Account\MessageList->create('032311463', Array)
+#3 {main}
+  thrown in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php on line 85
+[21-Sep-2017 16:20:04 Europe/Brussels] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: To number: +3232311463, is not a mobile number' in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(65): Twilio\Version->create('POST', '/Accounts/ACdee...', Array, Array)
+#2 /home/chinafood/public_html/datainterface/sendconfirmation.php(57): Twilio\Rest\Api\V2010\Account\MessageList->create('032311463', Array)
+#3 {main}
+  thrown in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php on line 85
+[21-Sep-2017 16:48:12 Europe/Brussels] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: To number: +3232311463, is not a mobile number' in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(65): Twilio\Version->create('POST', '/Accounts/ACdee...', Array, Array)
+#2 /home/chinafood/public_html/datainterface/sendconfirmation.php(57): Twilio\Rest\Api\V2010\Account\MessageList->create('032311463', Array)
+#3 {main}
+  thrown in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php on line 85
+[21-Sep-2017 17:29:36 Europe/Brussels] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: To number: +3232311463, is not a mobile number' in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(65): Twilio\Version->create('POST', '/Accounts/ACdee...', Array, Array)
+#2 /home/chinafood/public_html/datainterface/sendconfirmation.php(57): Twilio\Rest\Api\V2010\Account\MessageList->create('032311463', Array)
+#3 {main}
+  thrown in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php on line 85
+[16-Nov-2017 22:23:03 Europe/Brussels] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: To number: +3232311463, is not a mobile number' in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(65): Twilio\Version->create('POST', '/Accounts/ACdee...', Array, Array)
+#2 /home/chinafood/public_html/datainterface/sendconfirmation.php(57): Twilio\Rest\Api\V2010\Account\MessageList->create('032311463', Array)
+#3 {main}
+  thrown in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php on line 85
+[30-Nov-2017 16:51:48 Europe/Brussels] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: To number: +3232311463, is not a mobile number' in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(65): Twilio\Version->create('POST', '/Accounts/ACdee...', Array, Array)
+#2 /home/chinafood/public_html/datainterface/sendconfirmation.php(57): Twilio\Rest\Api\V2010\Account\MessageList->create('032311463', Array)
+#3 {main}
+  thrown in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php on line 85
+[02-Dec-2017 22:04:20 Europe/Brussels] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: To number: +3232311463, is not a mobile number' in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(65): Twilio\Version->create('POST', '/Accounts/ACdee...', Array, Array)
+#2 /home/chinafood/public_html/datainterface/sendconfirmation.php(57): Twilio\Rest\Api\V2010\Account\MessageList->create('032311463', Array)
+#3 {main}
+  thrown in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php on line 85
+[09-Dec-2017 18:01:33 Europe/Brussels] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: To number: +3232311463, is not a mobile number' in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(65): Twilio\Version->create('POST', '/Accounts/ACdee...', Array, Array)
+#2 /home/chinafood/public_html/datainterface/sendconfirmation.php(57): Twilio\Rest\Api\V2010\Account\MessageList->create('032311463', Array)
+#3 {main}
+  thrown in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php on line 85
+[10-Dec-2017 19:57:16 Europe/Brussels] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: To number: +3232311463, is not a mobile number' in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(65): Twilio\Version->create('POST', '/Accounts/ACdee...', Array, Array)
+#2 /home/chinafood/public_html/datainterface/sendconfirmation.php(57): Twilio\Rest\Api\V2010\Account\MessageList->create('032311463', Array)
+#3 {main}
+  thrown in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php on line 85
+[13-Dec-2017 16:40:00 Europe/Brussels] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: To number: +3232311463, is not a mobile number' in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(65): Twilio\Version->create('POST', '/Accounts/ACdee...', Array, Array)
+#2 /home/chinafood/public_html/datainterface/sendconfirmation.php(57): Twilio\Rest\Api\V2010\Account\MessageList->create('032311463', Array)
+#3 {main}
+  thrown in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php on line 85
+[14-Dec-2017 15:04:44 Europe/Brussels] PHP Warning:  include_once(translation.php): failed to open stream: No such file or directory in /home/chinafood/public_html/datainterface/index.php on line 27
+[14-Dec-2017 15:04:44 Europe/Brussels] PHP Warning:  include_once(): Failed opening 'translation.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/chinafood/public_html/datainterface/index.php on line 27
+[14-Dec-2017 15:05:35 Europe/Brussels] PHP Warning:  include_once(translation.php): failed to open stream: No such file or directory in /home/chinafood/public_html/datainterface/index.php on line 27
+[14-Dec-2017 15:05:35 Europe/Brussels] PHP Warning:  include_once(): Failed opening 'translation.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/chinafood/public_html/datainterface/index.php on line 27
+[17-Dec-2017 15:53:31 Europe/Brussels] PHP Warning:  include_once(header.php): failed to open stream: No such file or directory in /home/chinafood/public_html/datainterface/index.php on line 2
+[17-Dec-2017 15:53:31 Europe/Brussels] PHP Warning:  include_once(): Failed opening 'header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/chinafood/public_html/datainterface/index.php on line 2
+[17-Dec-2017 15:53:31 Europe/Brussels] PHP Fatal error:  Call to a member function query() on null in /home/chinafood/public_html/datainterface/index.php on line 306
+[24-Dec-2017 15:32:18 Europe/Brussels] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: To number: +3233803878, is not a mobile number' in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php(207): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(65): Twilio\Version->create('POST', '/Accounts/ACdee...', Array, Array)
+#2 /home/chinafood/public_html/datainterface/sendconfirmation.php(57): Twilio\Rest\Api\V2010\Account\MessageList->create('033803878', Array)
+#3 {main}
+  thrown in /home/chinafood/public_html/datainterface/twilio-php-master/Twilio/Version.php on line 85
+[05-Jan-2018 17:16:52 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 17:17:19 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 17:20:21 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 17:22:18 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 17:22:25 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 17:25:27 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 17:28:29 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 17:31:58 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 17:35:09 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 17:35:12 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 17:38:14 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 17:41:16 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 17:44:18 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 17:46:07 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 17:49:08 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 17:52:11 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 17:54:54 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 17:54:55 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 17:57:57 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 21:55:11 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 21:58:13 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 22:01:15 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 22:04:17 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 22:07:19 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 22:10:21 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 22:13:24 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 22:16:26 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 22:19:28 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 22:22:30 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 22:25:33 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 22:28:35 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 22:31:38 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 22:34:40 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 22:37:42 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 22:40:44 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 22:43:46 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 22:46:49 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 22:49:51 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 22:52:53 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 22:55:55 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 22:58:58 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 23:02:00 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 23:05:03 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 23:08:04 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 23:11:07 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 23:14:09 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 23:17:11 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 23:20:13 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 23:23:16 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 23:26:18 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 23:29:20 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 23:32:22 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 23:35:24 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 23:38:27 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 23:41:29 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 23:44:31 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 23:47:33 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 23:50:36 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 23:53:38 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 23:56:40 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[05-Jan-2018 23:59:42 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 00:02:45 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 00:05:48 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 00:08:50 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 00:11:53 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 00:14:55 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 00:17:57 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 00:20:59 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 00:24:01 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 00:27:04 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 00:30:06 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 00:33:08 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 00:36:10 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 00:39:13 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 00:42:15 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 00:45:17 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 00:48:19 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 00:51:21 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 00:54:24 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 00:57:26 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 01:00:28 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 01:03:30 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 01:06:33 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 01:09:35 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[06-Jan-2018 01:12:37 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
+[07-Jan-2018 01:10:36 Europe/Brussels] PHP Fatal error:  Call to a member function rowCount() on boolean in /home/chinafood/public_html/datainterface/checkorder.php on line 15
