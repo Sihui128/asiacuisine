@@ -1,4 +1,2 @@
 # asiacuisine
-customized wordpress website for restaurants online order
-
-including all customized code files
+the files to use for the data-interface. for the android app to receive orders using the webview.
